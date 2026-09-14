@@ -1,0 +1,35 @@
+{
+  "name": "airbozh-pi-plugins",
+  "private": true,
+  "type": "module",
+  "description": "Pi coding-agent plugins by AirboZH.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirboZH/airbozh-pi-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AirboZH/airbozh-pi-plugins/issues"
+  },
+  "homepage": "https://github.com/AirboZH/airbozh-pi-plugins#readme",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.85.1",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.15.0"
+  }
+}
